@@ -9,11 +9,14 @@ import UIKit
 import Alamofire
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imagev: UIImageView!
+    var endpoint = "image/jpeg"
     override func viewDidLoad() {
         super.viewDidLoad()
-        AF.request("http://httpbin.org/get/image").responseData { data in
-           let data = try? data
+        AF.request("https://httpbin.org//\(endpoint)").responseData { data in
             print(data)
+            let data = try? data.value
+            self.imagev.image = UIImage(data: data!)
         }
     }
 
