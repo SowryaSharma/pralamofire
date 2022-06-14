@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E67DB23F39F4DC15C5AD155 /* Pods_pralamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DC580B2C2D1F019CAD9637 /* Pods_pralamofire.framework */; };
 		69CF66BB2858859100CDAF14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CF66BA2858859100CDAF14 /* AppDelegate.swift */; };
 		69CF66BD2858859100CDAF14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CF66BC2858859100CDAF14 /* SceneDelegate.swift */; };
 		69CF66BF2858859100CDAF14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CF66BE2858859100CDAF14 /* ViewController.swift */; };
@@ -14,10 +15,10 @@
 		69CF66C52858859100CDAF14 /* pralamofire.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69CF66C32858859100CDAF14 /* pralamofire.xcdatamodeld */; };
 		69CF66C72858859500CDAF14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69CF66C62858859500CDAF14 /* Assets.xcassets */; };
 		69CF66CA2858859500CDAF14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69CF66C82858859500CDAF14 /* LaunchScreen.storyboard */; };
-		9D0476846406FD10EF91188C /* Pods_pralamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9A58B1D0C35CA2D1C59BDF /* Pods_pralamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5AC24E8399C6B82214A75DA9 /* Pods-pralamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pralamofire.release.xcconfig"; path = "Target Support Files/Pods-pralamofire/Pods-pralamofire.release.xcconfig"; sourceTree = "<group>"; };
 		69CF66B72858859100CDAF14 /* pralamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pralamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CF66BA2858859100CDAF14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69CF66BC2858859100CDAF14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,9 +28,8 @@
 		69CF66C62858859500CDAF14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69CF66C92858859500CDAF14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69CF66CB2858859500CDAF14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6C5CFA3B3390424CAC109CE1 /* Pods-pralamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pralamofire.debug.xcconfig"; path = "Target Support Files/Pods-pralamofire/Pods-pralamofire.debug.xcconfig"; sourceTree = "<group>"; };
-		BC9A58B1D0C35CA2D1C59BDF /* Pods_pralamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pralamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D65DAFEBE39D9FB57AFE1FB4 /* Pods-pralamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pralamofire.release.xcconfig"; path = "Target Support Files/Pods-pralamofire/Pods-pralamofire.release.xcconfig"; sourceTree = "<group>"; };
+		8ACBC29DADF668F71FB1CA8E /* Pods-pralamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pralamofire.debug.xcconfig"; path = "Target Support Files/Pods-pralamofire/Pods-pralamofire.debug.xcconfig"; sourceTree = "<group>"; };
+		92DC580B2C2D1F019CAD9637 /* Pods_pralamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pralamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +37,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D0476846406FD10EF91188C /* Pods_pralamofire.framework in Frameworks */,
+				5E67DB23F39F4DC15C5AD155 /* Pods_pralamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A005CF25F30C868899DFDA7 /* Frameworks */ = {
+		0FE3A65B6D2C5893E39C7660 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BC9A58B1D0C35CA2D1C59BDF /* Pods_pralamofire.framework */,
+				92DC580B2C2D1F019CAD9637 /* Pods_pralamofire.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -58,7 +58,7 @@
 				69CF66B92858859100CDAF14 /* pralamofire */,
 				69CF66B82858859100CDAF14 /* Products */,
 				BCF6C2B990E2C3FA8AA60702 /* Pods */,
-				2A005CF25F30C868899DFDA7 /* Frameworks */,
+				0FE3A65B6D2C5893E39C7660 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,10 +88,9 @@
 		BCF6C2B990E2C3FA8AA60702 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C5CFA3B3390424CAC109CE1 /* Pods-pralamofire.debug.xcconfig */,
-				D65DAFEBE39D9FB57AFE1FB4 /* Pods-pralamofire.release.xcconfig */,
+				8ACBC29DADF668F71FB1CA8E /* Pods-pralamofire.debug.xcconfig */,
+				5AC24E8399C6B82214A75DA9 /* Pods-pralamofire.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -102,11 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69CF66CE2858859500CDAF14 /* Build configuration list for PBXNativeTarget "pralamofire" */;
 			buildPhases = (
-				B48C48A98690B16A6679A3F3 /* [CP] Check Pods Manifest.lock */,
+				7FF9633CF52D7157793C5D41 /* [CP] Check Pods Manifest.lock */,
 				69CF66B32858859100CDAF14 /* Sources */,
 				69CF66B42858859100CDAF14 /* Frameworks */,
 				69CF66B52858859100CDAF14 /* Resources */,
-				6CD3C7659E766F541A845A76 /* [CP] Embed Pods Frameworks */,
+				8E2EA92818BA6684D70599EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,24 +163,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6CD3C7659E766F541A845A76 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-pralamofire/Pods-pralamofire-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-pralamofire/Pods-pralamofire-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pralamofire/Pods-pralamofire-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B48C48A98690B16A6679A3F3 /* [CP] Check Pods Manifest.lock */ = {
+		7FF9633CF52D7157793C5D41 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -201,6 +183,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E2EA92818BA6684D70599EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pralamofire/Pods-pralamofire-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pralamofire/Pods-pralamofire-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pralamofire/Pods-pralamofire-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -357,7 +356,7 @@
 		};
 		69CF66CF2858859500CDAF14 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C5CFA3B3390424CAC109CE1 /* Pods-pralamofire.debug.xcconfig */;
+			baseConfigurationReference = 8ACBC29DADF668F71FB1CA8E /* Pods-pralamofire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -386,7 +385,7 @@
 		};
 		69CF66D02858859500CDAF14 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D65DAFEBE39D9FB57AFE1FB4 /* Pods-pralamofire.release.xcconfig */;
+			baseConfigurationReference = 5AC24E8399C6B82214A75DA9 /* Pods-pralamofire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
