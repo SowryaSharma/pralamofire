@@ -23,16 +23,17 @@ class ViewController: UIViewController {
         }
     }
     func downloadmanager(){
+        //create an image file at directory
         let documentDirectory = FileManager.default.urls(for: .documentDirectory,in: .userDomainMask)[0]
         let imageName = documentDirectory.appendingPathComponent("myImage.png")
         let urlString = "https://httpbin.org//\(self.endpoint)"
 
-        // 2
+
         if let imageUrl = URL(string: urlString) {
-            // 3
+            //download that image
             URLSession.shared.downloadTask(with: imageUrl) { (tempFileUrl, response, error) in
                 
-                // 4
+                // move that file from downloaded locaton to created location
                 if let imageTempFileUrl = tempFileUrl {
                     do {
                         print(imageTempFileUrl)
